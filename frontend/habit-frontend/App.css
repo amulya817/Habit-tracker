@@ -1,0 +1,83 @@
+.app {
+  max-width: 520px;
+  margin: 90px auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: 28px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+}
+
+/* TITLE */
+h2 {
+  text-align: center;
+  font-size: 44px;        /* VERY BIG */
+  font-style: italic;
+  font-weight: 900;      /* VERY BOLD */
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+/* INPUT ROW */
+.input-row {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 30px;
+}
+
+/* INPUT */
+input {
+  flex: 1;
+  padding: 16px;
+  border-radius: 18px;
+  border: 1px solid #ccc;
+  font-size: 44px;       /* BIG */
+  font-style: italic;
+  font-weight: 800;
+}
+
+/* BUTTON */
+button {
+  padding: 16px 22px;
+  border-radius: 18px;
+  border: none;
+  background-color: #c97b7b;
+  color: white;
+  font-size: 40px;       /* BIG */
+  font-weight: 900;     /* BOLD */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b56767;
+}
+
+/* LIST */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* LIST ITEM */
+li {
+  background: rgba(255, 245, 248, 0.95);
+  padding: 18px;
+  border-radius: 18px;
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* HABIT TEXT */
+.habit {
+  font-size: 24px;       /* VERY BIG */
+  font-style: italic;
+  font-weight: 800;     /* BOLD */
+  cursor: pointer;
+}
+
+/* COMPLETED */
+.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
