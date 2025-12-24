@@ -2,7 +2,7 @@ import "./App.css";
 import { useEffect, useState } from "react";
 
 function App() {
-  const API = "http://127.0.0.1:8000";
+  const API = "https://habit-tracker-production-3cfe.up.railway.app";
 
   const [habits, setHabits] = useState([]);
   const [name, setName] = useState("");
